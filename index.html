@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@500;600&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,500;1,700&display=swap" rel="stylesheet">
+   
+    <!-- font awesome kit link  -->
+    <script src="https://kit.fontawesome.com/8e44bb6fd0.js" crossorigin="anonymous"></script>
+   
+    <!-- bootstrap and css link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- noraml meta links  -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- title of webpage with favicon  -->
+    <link rel="shortcut icon" href="/favicon_io/android-chrome-512x512.png?v=2" type="image/x-icon">
+    <title>Todos</title>
+</head>
+<body>
+    <div class="container">
+
+        <header class="text-center text-light my-4">
+            <h1 class="mb-4">Todo List</h1>
+            <form class="search">
+                <input type="text" name="search" class="form-control m-auto" placeholder="search todos">
+            </form>
+        </header>
+
+        <ul class="list-group todos mx-auto text-light">
+            <li class="list-group-item d-flex justify-content-between align-items-center text-light">
+                <span>default todo, just for example, you can delete this</span>
+                <i class="far fa-trash-alt delete"></i>
+            </li>
+        </ul>
+
+        <form class="add text-center my-4">
+            <label class="text-light">Add a new todo...</label>
+            <input type="text" name="add" class="form-control m-auto">
+        </form>
+
+    </div>
+
+    <footer class="">
+        <h3 class="text-center text-light">Made with ❤ by<span> GARV PATIDAR</span></h3>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
